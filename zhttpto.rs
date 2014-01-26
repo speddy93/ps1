@@ -80,7 +80,7 @@ fn main() {
             else if path[1] != "/"
             {
                 let response: ~str = 
-                ~"HTTP/1.1 403 OK\r\nContent-Type: text/html; charset=UTF-8\r\n\r\n
+                ~"HTTP/1.1 403 Forbidden\r\nContent-Type: text/html; charset=UTF-8\r\n\r\n
                  <doctype !html><html><head><title>Hello, Rust!</title>
                  <style>body { background-color: #111; color: #FFEEAA }
                  </style></head>
