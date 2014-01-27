@@ -1,4 +1,3 @@
-use std::rand::random;
 use std::os;
 use std::io::File;
 
